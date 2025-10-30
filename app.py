@@ -1707,7 +1707,7 @@ if __name__ == "__main__":
         
 
     app.run(host="0.0.0.0", 
-            port=8000,
+            port=8500,
             use_reloader=False,
             threaded=True,       # Permite múltiples hilos
             processes=1          # Un proceso con múltiples hilos
